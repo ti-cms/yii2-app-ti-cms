@@ -1,0 +1,27 @@
+{
+  "name" : "ti-cms/yii2-app-ti-cms",
+  "description" : "A TiCMS starter app for Yii2",
+  "homepage" : "https://github.com/ti-cms/yii2-app-ti-cms",
+  "version" : "0.0.2-alpha",
+  "license" : "GPL-3.0",
+  "type": "project",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.6",
+    "yiisoft/yii2-bootstrap": "*",
+    "ti-cms/ti-cms":"dev-develop"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "*",
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
