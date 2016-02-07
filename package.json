@@ -1,0 +1,20 @@
+{
+  "name": "yii2-app-ti-cms",
+  "description": "A TiCMS starter app for Yii2",
+  "version": "0.0.1-alpha",
+  "keywords": [
+  ],
+  "author": "Toru Interactive Ltd.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ti-cms/yii2-app-ti-cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ti-cms/yii2-app-ti-cms/issues"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
