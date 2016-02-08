@@ -30,5 +30,4 @@ phpunit.phar
 /phpunit.xml
 
 .bowerrc
-composer.lock
-composer-extra-assets.lock
+bower.json
