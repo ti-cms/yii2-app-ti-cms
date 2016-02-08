@@ -7,13 +7,15 @@
   "type": "project",
   "minimum-stability": "dev",
   "require": {
-    "php": ">=5.4.0",
-    "yiisoft/yii2": ">=2.0.6",
-    "yiisoft/yii2-bootstrap": "*",
-    "ti-cms/ti-cms":"dev-develop"
+    "php": "5.4.*",
+    "yiisoft/yii2": "2.0.*",
+    "ti-cms/ti-cms":"dev-sean-dev"
   },
   "require-dev": {
-    "yiisoft/yii2-debug": "*"
+    "yiisoft/yii2-codeception": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*",
+    "yiisoft/yii2-faker": "*"
   },
   "config": {
     "process-timeout": 1800
